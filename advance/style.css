@@ -35,7 +35,6 @@ body {
   background: #594D36;
   display: flex;
   justify-content: center;
-  box-shadow: 10px 5px 5px #c2c2a3;
 }
 
 .item {
