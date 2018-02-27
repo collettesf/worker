@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body{
+  font-family: 'Cabin', sans-serif;
+}
+
+
+body {
+  background: #F2E4C9;
+  color: #594D36;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body {
+    background: #F5D5B2;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+}
+.container-box {
+  background: #594D36;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background: #D9CAAD;
+  padding: 10px;
+}
+
+header, footer {
+  background:#D9CAAD ;
+}
